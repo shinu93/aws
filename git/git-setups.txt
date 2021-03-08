@@ -21,6 +21,12 @@ or
 # To check the changes made in the file, use the command
   git status 
   
+# To commit files to local repository, use the command
+  git commit -m "some message"
+  
+# To push the changes to central repository, use the command
+  git push origin <branch-name>
+  
 # To check the entire information list, use the command below
   git config --global --list
   
