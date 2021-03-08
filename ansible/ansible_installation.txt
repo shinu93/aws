@@ -1,0 +1,20 @@
+# installing ansible on linux(centos)
+
+# First install python3
+ sudo yum install -y python3
+ 
+# next install ansible using pip3 command
+
+ sudo pip3 install ansible
+ 
+ # If there is any errors install setuptools via pip3
+ 
+ sudo pip3 install setuptools
+ 
+ # if we are still gettting errors use following commands
+ 
+ sudo python3 -m pip install -U pip
+ sudo pyhton3 -m pip install -U ansible
+ sudo python3 -m pip install -U setuptools
+ 
+ # Even after you are still getting some errors leave it and throw your computer and sleep

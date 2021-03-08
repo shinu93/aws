@@ -1,0 +1,73 @@
+# installing git on centos (linux)
+sudo yum install -y git
+
+# To check the version of git, use the command below
+  git --version
+
+# To add git username that is to identify the author, use the command below-
+  git config --global user.name "USERNAME"
+ 
+# To set the email addres, use the command below
+  git config --global user.email "email_address"
+  
+# To verify the email, use the command below
+  git config --global user.email
+  
+# To add all the file, use the command below ( staging area )
+  git add .
+or
+  git add fie_name
+  
+# To check the changes made in the file, use the command
+  git status 
+  
+# To check the entire information list, use the command below
+  git config --global --list
+  
+# To create a new branch use the commands
+  git checkout -b branch-name
+or 
+  git branch branch-name
+
+# To switch branch from one branch to another, use command
+  git checkout branch-name
+  
+# To check list of branches use command
+  git branch
+  
+# To send changes to master branch 
+  git push origin master
+  
+# To delete all changes including untracked files, use the command
+  git clean -fie_name
+  
+# To merge the different branch with the master branch, use the command 
+  git checkout branch-name
+  git merge master
+  
+# To add github repository address, use command
+  git remote add origin "url of the repository"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
