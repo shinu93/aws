@@ -54,6 +54,12 @@ or
 # To add github repository address, use command
   git remote add origin "url of the repository"
   
+# To remove files from github repository
+  git rm <file_name>
+or
+  git rm -r <file_name>
+and
+  git push origin <branch-name>  
   
   
   
